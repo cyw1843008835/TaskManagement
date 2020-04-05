@@ -1,0 +1,26 @@
+create table TASK
+(
+  tasknm             VARCHAR2(20),
+ status          number default 0,
+ Expected_starttm VARCHAR2(19),
+ Expected_endtm  VARCHAR2(19),
+  starttime          VARCHAR2(19),
+  endtime            VARCHAR2(19),
+  kousu              VARCHAR2(2),
+  prestoptm        VARCHAR2(19),
+ prestarttm       VARCHAR2(19),
+ prekousu        VARCHAR2(2),
+ updated_time     VARCHAR2(19),
+ updated_ip      VARCHAR2(20)
+)
+tablespace USERS
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DBINFO>
+	<HOST>127.0.0.1</HOST>
+	<PORT>1521</PORT>
+	<SERVICE_NAME>orcl</SERVICE_NAME>
+	<USER>scott</USER>
+	<PASSWORD>tiger</PASSWORD>
+</DBINFO>
